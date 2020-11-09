@@ -9,5 +9,7 @@
 <body>
 <h1>The Quote is:</h1>
 <p>${randomQuote}</p>
+<h1>User Info:</h1>
+<p>${userName} is a ${userRole}</p>
 </body>
 </html>

@@ -1,18 +1,18 @@
 package com.demo.model;
 
-import javax.validation.constraints.*;
+//import javax.validation.constraints.*;
 
 public class Account {
 	
-	@Size(min=5,max=10)
+	//@Size(min=5,max=10)
 	private String FirstName;
-	@Size(min=5,max=10)
+//	@Size(min=5,max=10)
 	private String LastName;
-	@Size(min=5,max=100)
+//	@Size(min=5,max=100)
 	private String Address;
-	@org.hibernate.validator.constraints.Email
+//	@org.hibernate.validator.constraints.Email
 	private String Email;
-	@NotNull @Min(15)
+//	@NotNull @Min(15)
 	private int Age=15;
 	public int getAge() 
 	{
